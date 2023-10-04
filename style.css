@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    --font-anton: 'Anton', sans-serif;
+    --green-circle: #7ED957;
+    --green-stripe: #00BF63;
+    --green-footer: #00BF63;
+    --text-color: #EEEEEE;
+}
