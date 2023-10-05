@@ -4,11 +4,12 @@
   box-sizing: border-box;
 }
 body {
-  --font-anton: "Anton", sans-serif;
+  --font-arimo: 'Arimo', sans-serif;
   --green-circle: #7ed957;
   --green-stripe: #00bf63;
   --green-footer: #00bf63;
   --text-color: #eeeeee;
+  font-family: var(--font-arimo);
 }
 /* NAV */
 
@@ -73,15 +74,14 @@ header > h1 > span:nth-of-type(3) {
 
 h1 {
   font-size: 1.5rem;
-  font-family: sans-serif;
-  font-weight: 500;
+  font-weight: bold;
   white-space: pre-line;
   width: 100%;
 }
 header > p {
   font-family: sans-serif;
   white-space: pre-line;
-  font-weight: 600;
+  font-weight: bold;
   font-size: 0.9rem;
   width: 100%;
 }
@@ -138,7 +138,6 @@ img{
 h3{
   font-size: 1rem;
   font-family: var(--font-anton);
-  letter-spacing: 2px;
 }
 .img-content{
   display: flex;
