@@ -10,6 +10,7 @@ body {
   --green-footer: #00bf63;
   --text-color: #eeeeee;
   font-family: var(--font-arimo);
+  width: 700px;
 }
 /* NAV */
 
